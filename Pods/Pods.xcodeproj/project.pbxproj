@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DE0C3D1D2CA7A956A3FDF5BE1729677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C468164DAFA749139785EE6BD30C848 /* Foundation.framework */; };
+		6270D82C44ED2340D0CA95DD43F8AD2C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD88C77C8F72F2ADE8E18E913B487A19 /* QuartzCore.framework */; };
+		78B26E14D27DE0EE4089E98F2148762B /* Pods-WorkingWithMultiplePickerViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46901853344DCBE4B0072FB04DF13C59 /* Pods-WorkingWithMultiplePickerViews-dummy.m */; };
+		7BBFDF8F86AD6B90242480FA385F7638 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C468164DAFA749139785EE6BD30C848 /* Foundation.framework */; };
+		904D2D25ADD61AD98D85647B33F5790E /* AKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 405FA690873D7F217278A3BE67151764 /* AKPickerView.m */; };
+		CEA9EFD730A08AF298C30F31451A5035 /* AKPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9F7E7ADCFDDEF86870DAD9331A7BC1 /* AKPickerView.h */; };
+		E987E6FC33C58A1239291D2DB8568197 /* AKPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF7FC8EAA285B78025A92D1B3DD27CB /* AKPickerView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB6CA82E752D48A3C006D85644E3B14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4CC463A1718E2C0C919D3691738187C;
+			remoteInfo = AKPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E6A2496AD26BF6958415AE4C747A1E6 /* Pods-WorkingWithMultiplePickerViews-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorkingWithMultiplePickerViews-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B6B292C098A0921007B98975C9664D4 /* Pods-WorkingWithMultiplePickerViews-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorkingWithMultiplePickerViews-acknowledgements.plist"; sourceTree = "<group>"; };
+		405FA690873D7F217278A3BE67151764 /* AKPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AKPickerView.m; path = AKPickerViewSample/AKPickerView/AKPickerView.m; sourceTree = "<group>"; };
+		46901853344DCBE4B0072FB04DF13C59 /* Pods-WorkingWithMultiplePickerViews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorkingWithMultiplePickerViews-dummy.m"; sourceTree = "<group>"; };
+		59FA40180DB8BFC069649349C3215B0C /* Pods-WorkingWithMultiplePickerViews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkingWithMultiplePickerViews.debug.xcconfig"; sourceTree = "<group>"; };
+		7716FF7A3BF263B8A2E959F9067B8E56 /* Pods-WorkingWithMultiplePickerViews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorkingWithMultiplePickerViews.release.xcconfig"; sourceTree = "<group>"; };
+		9C468164DAFA749139785EE6BD30C848 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AD88C77C8F72F2ADE8E18E913B487A19 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B47F1B9ADCBAA094E7CF3966ECDB581F /* libAKPickerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAKPickerView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C10A6E0C7CE183E5471B07470F370D8A /* Pods-WorkingWithMultiplePickerViews-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorkingWithMultiplePickerViews-resources.sh"; sourceTree = "<group>"; };
+		C14F976B34FB1BEF80873CC584266339 /* AKPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKPickerView.xcconfig; sourceTree = "<group>"; };
+		C86DC6C564C33270EC54256090F4B833 /* AKPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKPickerView-prefix.pch"; sourceTree = "<group>"; };
+		CDF7FC8EAA285B78025A92D1B3DD27CB /* AKPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKPickerView-dummy.m"; sourceTree = "<group>"; };
+		EE7DD98E5705D40C3F3506DB392093AB /* libPods-WorkingWithMultiplePickerViews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorkingWithMultiplePickerViews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9F7E7ADCFDDEF86870DAD9331A7BC1 /* AKPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AKPickerView.h; path = AKPickerViewSample/AKPickerView/AKPickerView.h; sourceTree = "<group>"; };
+		F6C7D4A958FD5607D6E20CAF9743BAD7 /* AKPickerView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AKPickerView-Private.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		347905730F85C4ACA2AF3F2C0D7C8E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE0C3D1D2CA7A956A3FDF5BE1729677 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9E15C4D9433C437B509F2D41E44A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBFDF8F86AD6B90242480FA385F7638 /* Foundation.framework in Frameworks */,
+				6270D82C44ED2340D0CA95DD43F8AD2C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00FC04B06EEF8A155D545C321FDCC389 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9C468164DAFA749139785EE6BD30C848 /* Foundation.framework */,
+				AD88C77C8F72F2ADE8E18E913B487A19 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		15A314FBCC9A6ED9573B48E927D069A5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF65F04663E88F161A49041319C76FDF /* Pods-WorkingWithMultiplePickerViews */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00FC04B06EEF8A155D545C321FDCC389 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44566BEB753A389C142CD6CDDD0F3D97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6DC934523C2F908D8BAAFF8973257BA /* AKPickerView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				44566BEB753A389C142CD6CDDD0F3D97 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				15A314FBCC9A6ED9573B48E927D069A5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E456AAC15851AE02A1712A44817C0B4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C14F976B34FB1BEF80873CC584266339 /* AKPickerView.xcconfig */,
+				F6C7D4A958FD5607D6E20CAF9743BAD7 /* AKPickerView-Private.xcconfig */,
+				CDF7FC8EAA285B78025A92D1B3DD27CB /* AKPickerView-dummy.m */,
+				C86DC6C564C33270EC54256090F4B833 /* AKPickerView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AKPickerView";
+			sourceTree = "<group>";
+		};
+		AF65F04663E88F161A49041319C76FDF /* Pods-WorkingWithMultiplePickerViews */ = {
+			isa = PBXGroup;
+			children = (
+				1E6A2496AD26BF6958415AE4C747A1E6 /* Pods-WorkingWithMultiplePickerViews-acknowledgements.markdown */,
+				3B6B292C098A0921007B98975C9664D4 /* Pods-WorkingWithMultiplePickerViews-acknowledgements.plist */,
+				46901853344DCBE4B0072FB04DF13C59 /* Pods-WorkingWithMultiplePickerViews-dummy.m */,
+				C10A6E0C7CE183E5471B07470F370D8A /* Pods-WorkingWithMultiplePickerViews-resources.sh */,
+				59FA40180DB8BFC069649349C3215B0C /* Pods-WorkingWithMultiplePickerViews.debug.xcconfig */,
+				7716FF7A3BF263B8A2E959F9067B8E56 /* Pods-WorkingWithMultiplePickerViews.release.xcconfig */,
+			);
+			name = "Pods-WorkingWithMultiplePickerViews";
+			path = "Target Support Files/Pods-WorkingWithMultiplePickerViews";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B47F1B9ADCBAA094E7CF3966ECDB581F /* libAKPickerView.a */,
+				EE7DD98E5705D40C3F3506DB392093AB /* libPods-WorkingWithMultiplePickerViews.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6DC934523C2F908D8BAAFF8973257BA /* AKPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F7E7ADCFDDEF86870DAD9331A7BC1 /* AKPickerView.h */,
+				405FA690873D7F217278A3BE67151764 /* AKPickerView.m */,
+				7E456AAC15851AE02A1712A44817C0B4 /* Support Files */,
+			);
+			path = AKPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9BC75B5B6A95E32C4577E4622B00E596 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA9EFD730A08AF298C30F31451A5035 /* AKPickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		831E3A58F8167A0049FCD8AFC90A9885 /* Pods-WorkingWithMultiplePickerViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9115AD67963E6B48977B6BB7A97A2EA0 /* Build configuration list for PBXNativeTarget "Pods-WorkingWithMultiplePickerViews" */;
+			buildPhases = (
+				22720906EF0F0CE20F02DD98F84E77B8 /* Sources */,
+				347905730F85C4ACA2AF3F2C0D7C8E11 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE8C224E0F0BD3518A2A0B43442C63A /* PBXTargetDependency */,
+			);
+			name = "Pods-WorkingWithMultiplePickerViews";
+			productName = "Pods-WorkingWithMultiplePickerViews";
+			productReference = EE7DD98E5705D40C3F3506DB392093AB /* libPods-WorkingWithMultiplePickerViews.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B4CC463A1718E2C0C919D3691738187C /* AKPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22AC5A9A30CE3D016E7E8A79F2648F46 /* Build configuration list for PBXNativeTarget "AKPickerView" */;
+			buildPhases = (
+				37E1C3473A00CED45E67005A873A9C0A /* Sources */,
+				DC9E15C4D9433C437B509F2D41E44A5C /* Frameworks */,
+				9BC75B5B6A95E32C4577E4622B00E596 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKPickerView;
+			productName = AKPickerView;
+			productReference = B47F1B9ADCBAA094E7CF3966ECDB581F /* libAKPickerView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4CC463A1718E2C0C919D3691738187C /* AKPickerView */,
+				831E3A58F8167A0049FCD8AFC90A9885 /* Pods-WorkingWithMultiplePickerViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22720906EF0F0CE20F02DD98F84E77B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B26E14D27DE0EE4089E98F2148762B /* Pods-WorkingWithMultiplePickerViews-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E1C3473A00CED45E67005A873A9C0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E987E6FC33C58A1239291D2DB8568197 /* AKPickerView-dummy.m in Sources */,
+				904D2D25ADD61AD98D85647B33F5790E /* AKPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCE8C224E0F0BD3518A2A0B43442C63A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AKPickerView;
+			target = B4CC463A1718E2C0C919D3691738187C /* AKPickerView */;
+			targetProxy = BB6CA82E752D48A3C006D85644E3B14F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A306C0A6DFA701DA588C2A9B11A066B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C7D4A958FD5607D6E20CAF9743BAD7 /* AKPickerView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AKPickerView/AKPickerView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		857852179214110743DF41DBA466106E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7716FF7A3BF263B8A2E959F9067B8E56 /* Pods-WorkingWithMultiplePickerViews.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AE1630DED7CB1CF6A44909897947DA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C7D4A958FD5607D6E20CAF9743BAD7 /* AKPickerView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AKPickerView/AKPickerView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF07CFDB103E48C4E1271711A9BEAB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59FA40180DB8BFC069649349C3215B0C /* Pods-WorkingWithMultiplePickerViews.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22AC5A9A30CE3D016E7E8A79F2648F46 /* Build configuration list for PBXNativeTarget "AKPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A306C0A6DFA701DA588C2A9B11A066B /* Debug */,
+				AE1630DED7CB1CF6A44909897947DA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9115AD67963E6B48977B6BB7A97A2EA0 /* Build configuration list for PBXNativeTarget "Pods-WorkingWithMultiplePickerViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF07CFDB103E48C4E1271711A9BEAB2D /* Debug */,
+				857852179214110743DF41DBA466106E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

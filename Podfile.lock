@@ -1,0 +1,10 @@
+PODS:
+  - AKPickerView (0.2.7)
+
+DEPENDENCIES:
+  - AKPickerView
+
+SPEC CHECKSUMS:
+  AKPickerView: 125372e36fcc372216127600a541f14dcdbb7993
+
+COCOAPODS: 0.38.2
